@@ -28,7 +28,7 @@ let duration = 0;
 // INSERT YOUR CODE HERE
 
 // Function for calculating and updating the total cost based on the current model and duration.
-function recalculate(){
+function recalculate() {
     const costLabel = document.getElementById("calculated-cost");
     let totalCost; 
     if (modelName ==="XYZ") {
@@ -89,7 +89,7 @@ function changeModel() {
 const durationButton = document.getElementById("duration-button");
 
 // Function for updating the duration based on user input, and recalculating the total cost accordingly
-function changeDuration(){
+function changeDuration() {
     const durationText = document.getElementById("duration-text");
     let durationInput = prompt("Enter new duration: ");
     duration = parseInt(durationInput);
