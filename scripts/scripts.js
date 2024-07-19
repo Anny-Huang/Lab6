@@ -31,7 +31,7 @@ let duration = 0;
 function recalculate() {
     const costLabel = document.getElementById("calculated-cost");
     let totalCost; 
-    if (modelName ==="XYZ") {
+    if (modelName === "XYZ") {
         totalCost = duration * 100;
     }else {
         totalCost = duration * 213;
